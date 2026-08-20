@@ -7,7 +7,7 @@
     "link-share",
     "pyrogram"
   ],
-  "repository": "https://github.com/Unrated-Coder/Unrated-LinkShare-Bot",
+  "repository": "https://t.me/solurix_bots",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
