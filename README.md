@@ -216,7 +216,7 @@ Deploy your custom instance of **LinkShareBot** directly to top cloud hosting pl
     <img src="https://img.shields.io/badge/Deploy--to--Koyeb-1F2937?style=for-the-badge&logo=koyeb&logoColor=white" height="38" alt="Deploy to Koyeb" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://render.com/deploy?repo=https://github.com/Unrated-Coder/Unrated-LinkShare-Bot" target="_blank">
+  <a href="https://github.com/lordjirosama/Linksharebot" target="_blank">
     <img src="https://img.shields.io/badge/Deploy--to--Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" height="38" alt="Deploy to Render" />
   </a>
 </p>
@@ -224,5 +224,5 @@ Deploy your custom instance of **LinkShareBot** directly to top cloud hosting pl
 ---
 
 <p align="center">
-  Developed & maintained with ⚡️ by <a href="https://t.me/Unrated_Coder"><b>@Unrated_Coder</b></a> on Telegram
+  Developed & maintained with ⚡️ by <a href="https://t.me/solurix_bots"><b>@Solurix</b></a> on Telegram
 </p>
