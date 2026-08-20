@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/Unrated-Coder/Unrated-LinkShare-Bot" target="_blank">
+  <a href="https://github.com/lordjirosama/Linksharebot" target="_blank">
     <img src="https://imgyx.pages.dev/Qzjvg" width="100%" style="border-radius: 20px; border: 3px solid #00BFFF; box-shadow: 0 8px 30px rgba(0, 191, 255, 0.4); transition: transform 0.3s ease-in-out;" alt="Unrated-LinkShare-Bot Header" />
   </a>
 </p>
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://t.me/Unrated_Coder"><img src="https://img.shields.io/badge/Developer-@Unrated__Coder-orange?style=flat-square&logo=telegram&logoColor=white" /></a>
+  <a href="https://t.me/solurix_bots"><img src="https://img.shields.io/badge/Developer-@solurix-orange?style=flat-square&logo=telegram&logoColor=white" /></a>
   <a href="https://t.me/Unrated_Coder"><img src="https://img.shields.io/badge/Updates-Telegram-blue?style=flat-square&logo=telegram&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Framework-Pyrogram-9B30FF?style=flat-square&logo=telegram" />
