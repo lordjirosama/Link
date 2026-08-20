@@ -1,4 +1,4 @@
-# Upgraded by @Unrated_Coder from Telegram
+# Upgraded by @solurix_bots from Telegram
 import os
 import asyncio
 from config import *
@@ -64,7 +64,7 @@ async def autoapprove(client, message: ChatJoinRequest):
         try:
             invite_link = await client.export_chat_invite_link(chat.id)
             buttons = [
-                [InlineKeyboardButton('• ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs •', url='https://t.me/Unrated_Coder')],
+                [InlineKeyboardButton('• ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs •', url='https://t.me/solurix_bots')],
                 [InlineKeyboardButton(f'• ᴊᴏɪɴ {chat.title} •', url=invite_link)]
             ]
             markup = InlineKeyboardMarkup(buttons)
