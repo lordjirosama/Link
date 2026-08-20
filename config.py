@@ -1,4 +1,4 @@
-# Upgraded by @Unrated_Coder from Telegram
+# Upgraded by @solurix_bots from Telegram
 import os
 import re
 from os import environ
@@ -24,7 +24,7 @@ DB_NAME = os.environ.get("DB_NAME", "Unrated-LinkShare-Bot")
 #Auto approve 
 id_pattern = re.compile(r'^.\d+$')
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '-1004453910811').replace(',', ' ').split()] # dont change anything
-TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Unrated_Coder</b>")
+TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @solurix_botsr</b>")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Default
@@ -36,10 +36,10 @@ START_PIC = os.environ.get("START_PIC", "https://graph.org/file/7228e9fe7ebf6145
 START_IMG = os.environ.get("START_IMG", "https://graph.org/file/7228e9fe7ebf6145cca11-38b598b785ee91950b.jpg")
 # Messages
 START_MSG = os.environ.get("START_MSG", "<b>👋 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ʟɪɴᴋs sʜᴀʀɪɴɢ ʙᴏᴛ!</b>\n\n<blockquote><b>ᴛʜɪs ʙᴏᴛ ɪs ᴀɴ ᴇxᴄʟᴜsɪᴠᴇ ɢᴀᴛᴇᴡᴀʏ ғᴏʀ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ ᴛᴏ ᴀᴄᴄᴇss ᴄᴏɴᴛᴇɴᴛ sᴇᴄᴜʀᴇʟʏ. ᴘʟᴇᴀsᴇ ᴜsᴇ ᴛʜᴇ ʟɪɴᴋs ᴘʀᴏᴠɪᴅᴇᴅ ɪɴ ᴛʜᴇ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.</b></blockquote>\n\n<b>• 💠 ᴛʜɪs ɪs ᴀ ᴘʀɪᴠᴀᴛᴇʟʏ ᴍᴀɴᴀɢᴇᴅ sʏsᴛᴇᴍ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ᴏᴜʀ ᴄᴏɴᴛᴇɴᴛ ғʀᴏᴍ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs.</b>")
-HELP = os.environ.get("HELP_MESSAGE", "<b>›› ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟs:\n<blockquote>╭━━━━━━━━━━━━━━━━━━━━━\n├›› ᴜᴘᴅᴀᴛᴇs: @Unrated-Coder\n├›› sᴜᴘᴘᴏʀᴛ: @Unrated-Coder\n├›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Unrated_Coder\n╰━━━━━━━━━━━━━━━━━━━━━</blockquote></b>")
-ABOUT = os.environ.get("ABOUT_MESSAGE", "<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: @Unrated_Coder</b>\n<blockquote><b>╭━━━━━━━━━━━━━━━━━━━━━\n├›› ʟᴀɴɢᴜᴀɢᴇ: <a href='https://docs.python.org/3'>Pʏᴛʜᴏɴ 3.10</a>\n├›› ʟɪʙʀᴀʀʏ: <a href='https://www.mongodb.com/docs/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>\n├›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>\n├›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Unrated_Coder\n╰━━━━━━━━━━━━━━━━━━━━━</b></blockquote>")
+HELP = os.environ.get("HELP_MESSAGE", "<b>›› ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟs:\n<blockquote>╭━━━━━━━━━━━━━━━━━━━━━\n├›› ᴜᴘᴅᴀᴛᴇs: @solurix-bots\n├›› sᴜᴘᴘᴏʀᴛ: @solurix-bots\n├›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @solurix-bots\n╰━━━━━━━━━━━━━━━━━━━━━</blockquote></b>")
+ABOUT = os.environ.get("ABOUT_MESSAGE", "<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: @solurix-bots</b>\n<blockquote><b>╭━━━━━━━━━━━━━━━━━━━━━\n├›› ʟᴀɴɢᴜᴀɢᴇ: <a href='https://docs.python.org/3'>Pʏᴛʜᴏɴ 3.10</a>\n├›› ʟɪʙʀᴀʀʏ: <a href='https://www.mongodb.com/docs/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>\n├›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>\n├›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @solurix_bots\n╰━━━━━━━━━━━━━━━━━━━━━</b></blockquote>")
 
-ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: @senpai_jiro</b>
+ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: @solurix_bots</b>
 <blockquote><b>╭━━━━━━━━━━━━━━━━━━━━━
 ├›› ʟᴀɴɢᴜᴀɢᴇ: <a href='https://docs.python.org/3'>Pʏᴛʜᴏɴ 3.10</a>
 ├›› ʟɪʙʀᴀʀʏ: <a href='https://www.mongodb.com/docs/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>
@@ -49,9 +49,9 @@ ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: @senpai_jiro</b>
 
 CHANNELS_TXT = """<b>›› ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟs:
 <blockquote>╭━━━━━━━━━━━━━━━━━━━━━
-├›› ᴜᴘᴅᴀᴛᴇs: @senpai_jiro
-├›› sᴜᴘᴘᴏʀᴛ: @senpai_jiro
-├›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @senpai_jiro
+├›› ᴜᴘᴅᴀᴛᴇs: @solurix_bots
+├›› sᴜᴘᴘᴏʀᴛ: @solurix_Support
+├›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @solurix
 ╰━━━━━━━━━━━━━━━━━━━━━</blockquote></b>"""
 
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
