@@ -202,7 +202,7 @@ async def start_command(client: Client, message: Message):
             [
                 [InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data="about"),
                  InlineKeyboardButton("ᴄʜᴀɴɴᴇʟs •", callback_data="channels")],
-                [InlineKeyboardButton("• Jᴏɪɴ ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/Unrated_Coder")]
+                [InlineKeyboardButton("• Jᴏɪɴ ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/solurix_bots")]
             ]
         )
         
@@ -560,7 +560,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             [
                 [InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data="about"),
                  InlineKeyboardButton("ᴄʜᴀɴɴᴇʟs •", callback_data="channels")],
-                [InlineKeyboardButton("• Jᴏɪɴ ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/Unrated_Coder")]
+                [InlineKeyboardButton("• Jᴏɪɴ ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/solurix_bots")]
             ]
         )
         try:
