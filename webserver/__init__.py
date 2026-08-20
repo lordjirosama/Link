@@ -1,4 +1,4 @@
-# Upgraded by @Unrated_Coder
+# Upgraded by @solurix_bots
 # Join Our Telegram Channel to Support Us!
 from aiohttp import web
 from .route import routes
